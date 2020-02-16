@@ -1,14 +1,13 @@
 <template>
     <div>
-        money
+        HomePage
         <Nav/>
     </div>
-
 </template>
 
 <script>
     export default {
-        name: "Money",
+        name: "HomePage"
     }
 </script>
 

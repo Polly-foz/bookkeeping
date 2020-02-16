@@ -1,9 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
-import Money from '@/views/Money.vue'
-import Labels from '@/views/Labels.vue'
+import HomePage from '@/views/HomePage.vue'
+import Accounts from '@/views/Accounts.vue'
 import Statistics from '@/views/Statistics.vue'
+import Advanced from '@/views/Advanced.vue'
+import Me from '@/views/Me.vue'
 import NotFound from '@/views/NotFound.vue'
 
 Vue.use(VueRouter);
@@ -11,19 +12,27 @@ Vue.use(VueRouter);
 const routes = [
     {
         path: '/',
-        redirect: '/money'
+        redirect: '/HomePage'
     },
     {
-        path: '/money',
-        component: Money
+        path: '/HomePage',
+        component: HomePage
     },
     {
-        path: '/labels',
-        component: Labels
+        path: '/Accounts',
+        component: Accounts
     },
     {
         path: '/statistics',
         component: Statistics
+    },
+    {
+        path: '/advanced',
+        component: Advanced
+    },
+    {
+        path: '/me',
+        component: Me
     },
     {
         path: '*',

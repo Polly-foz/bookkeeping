@@ -1,12 +1,15 @@
 <template>
-    <div>
+    <div class="nav">
         <hr>
-        <div>导航栏</div>
-        <router-link to="/money">记账</router-link>
+        <router-link to="/homepage">主页</router-link>
         |
-        <router-link to="/labels">标签</router-link>
+        <router-link to="/accounts">账户</router-link>
         |
         <router-link to="/statistics">统计</router-link>
+        |
+        <router-link to="/advanced">高级</router-link>
+        |
+        <router-link to="/me">我的</router-link>
     </div>
 </template>
 
