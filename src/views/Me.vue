@@ -1,8 +1,7 @@
 <template>
-    <div>
+    <LayoutWithNav>
         Me
-        <Nav></Nav>
-    </div>
+    </LayoutWithNav>
 </template>
 
 <script>

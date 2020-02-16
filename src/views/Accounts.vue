@@ -1,8 +1,7 @@
 <template>
-    <div>
+    <LayoutWithNav>
         Accounts
-        <Nav/>
-    </div>
+    </LayoutWithNav>
 </template>
 
 <script>

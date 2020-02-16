@@ -1,8 +1,7 @@
 <template>
-    <div>
+    <LayoutWithNav>
         HomePage
-        <Nav/>
-    </div>
+    </LayoutWithNav>
 </template>
 
 <script>

@@ -1,8 +1,7 @@
 <template>
-    <div>
+    <LayoutWithNav>
         Advanced
-        <Nav/>
-    </div>
+    </LayoutWithNav>
 </template>
 
 <script>
