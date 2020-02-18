@@ -1,13 +1,14 @@
 <template>
     <LayoutWithNav id="homepage">
-        <div slot="header" class="header">
-            <h1>我的第一个账本</h1>
-            <div class="iconWrapper">
-                <Icon name="search" class="icon"/>
-                <Icon name="change" class="icon"/>
+        <template v-slot:header>
+            <div class="header">
+                <h1>我的第一个账本</h1>
+                <div class="iconWrapper">
+                    <Icon name="search" class="icon"/>
+                    <Icon name="change" class="icon"/>
+                </div>
             </div>
-
-        </div>
+        </template>
         <div class="main">
             <RecentTransactions/>
             <IncomeAndExpenditure/>
@@ -39,7 +40,7 @@
             justify-content: space-between;
             font-size: 1rem;
             padding: 1rem;
-            span{
+            h1{
 
             }
             .iconWrapper{
