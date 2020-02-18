@@ -1,12 +1,12 @@
 <template>
-    <LayoutWithNav>
-        HomePage
-    </LayoutWithNav>
+    <dialog>
+        calculator
+    </dialog>
 </template>
 
 <script>
     export default {
-        name: "HomePage"
+        name: "Calculator.vue"
     }
 </script>
 

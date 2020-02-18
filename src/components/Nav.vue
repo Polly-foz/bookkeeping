@@ -34,6 +34,7 @@
 </script>
 
 <style lang="scss" scoped>
+    @import "@/assets/style/helper.scss";
     nav{
         display: flex;
         box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
@@ -45,12 +46,15 @@
             flex-direction: column;
             align-items: center;
             font-size: 0.5rem;
+            color: #666;
+            line-height: 1;
             > .icon{
                 font-size: 1rem;
+                margin-bottom: 0.1rem;
             }
         }
         > .item.selected{
-            color:mediumseagreen;
+            color: $color-green;
         }
     }
 

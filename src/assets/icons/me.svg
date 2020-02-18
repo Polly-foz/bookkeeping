@@ -1,10 +1,1 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg t="1581865716003" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1281"
-     xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
-    <defs>
-        <style type="text/css"></style>
-    </defs>
-    <path d="M963.764706 963.764706v60.235294H60.235294v-60.235294c0-232.869647 202.270118-421.647059 451.764706-421.647059 249.494588 0 451.764706 188.777412 451.764706 421.647059zM752.941176 240.941176A240.941176 240.941176 0 1 1 271.058824 240.941176a240.941176 240.941176 0 0 1 481.882352 0z"
-          p-id="1282"></path>
-</svg>
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1582041480037" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1483" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><defs><style type="text/css"></style></defs><path d="M909.05882363 909.05882363v52.94117637H114.94117637v-52.94117636c0-204.67058818 177.7764709-370.58823545 397.05882363-370.58823546 219.28235273 0 397.05882363 165.91764727 397.05882363 370.58823545zM723.76470547 273.76470547A211.76470547 211.76470547 0 1 1 300.23529453 273.76470547a211.76470547 211.76470547 0 0 1 423.52941094 0z" p-id="1484"></path></svg>

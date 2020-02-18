@@ -1,6 +1,8 @@
 <template>
     <div class="layout-with-nav">
-        <div class="content"><slot/></div>
+        <div class="content">
+            <slot/>
+        </div>
         <Nav/>
     </div>
 </template>

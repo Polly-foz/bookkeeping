@@ -1,11 +1,12 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import HomePage from '@/views/HomePage.vue'
+import HomePage from '@/views/Home.vue'
 import Accounts from '@/views/Accounts.vue'
 import Statistics from '@/views/Statistics.vue'
 import Advanced from '@/views/Advanced.vue'
 import Me from '@/views/Me.vue'
 import NotFound from '@/views/NotFound.vue'
+import Calculator from '@/components/Calculator.vue'
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,10 @@ const routes = [
     {
         path: '/me',
         component: Me
+    },
+    {
+        path: '/calculator',
+        component: Calculator
     },
     {
         path: '*',

@@ -5,26 +5,28 @@
 </template>
 
 <style lang="scss">
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    @import "@/assets/style/reset.scss";
+    @import "@/assets/style/helper.scss";
+
+    html {
+        font-size: 16px;
     }
 
-    html { font-size:20px; }
-    @media(min-width:541px){ html { font-size:32px; } } /*Android常用宽度*/
-
-    a {
-        text-decoration: none;
-        color: inherit;
+    @media(min-width: 541px) {
+        html {
+            font-size: 24px;
+        }
     }
 
-    #app {
-        font-family: Avenir, Helvetica, Arial, sans-serif;
+    #app{
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
-        color: #2c3e50;
+        font-family: $font-family-black;
+        /*line-height: 1.5;*/
+        line-height: 1.5;
+        color: #333;
     }
+
 
 </style>
