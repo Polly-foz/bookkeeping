@@ -1,19 +1,17 @@
 <template>
     <LayoutWithNav id="homepage">
         <header>
-            <span>我的第一个账本</span>
+            <h1>我的第一个账本</h1>
             <div class="iconWrapper">
                 <Icon name="search" class="icon"/>
                 <Icon name="change" class="icon"/>
             </div>
 
         </header>
-        <div class="recentTransactions">
-            <span class="title">最近交易</span>
-        </div>
-        <div class="incomeAndExpenditure">
-            <span class="title">收入支出</span>
-        </div>
+        <main>
+            <RecentTransactions/>
+            <IncomeAndExpenditure/>
+        </main>
         <router-link to="/calculator">
             <button class="addTransaction">+</button>
         </router-link>
@@ -22,35 +20,39 @@
 
 <script>
 
+    import RecentTransactions from "@/components/RecentTransactions";
+    import IncomeAndExpenditure from "@/components/IncomeAndExpenditure";
+
     export default {
         name: "HomePage",
+        components: {RecentTransactions, IncomeAndExpenditure}
     }
 </script>
 
 <style lang="scss" scoped>
     @import "@/assets/style/helper.scss";
     #homepage{
-        color:blue;
         header{
             background-color: $color-green;
             color:white;
             display: flex;
             justify-content: space-between;
             font-size: 1rem;
-            padding: 0.5rem;
+            padding: 1rem;
+            span{
+
+            }
             .iconWrapper{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 .icon{
-
+                    margin-left: 1rem;
                 }
             }
         }
-    }
+        main{
 
-    Icon{
-        color: white;
-        font-size: 2rem;
+        }
     }
 </style>
