@@ -1,17 +1,17 @@
 <template>
     <LayoutWithNav id="homepage">
-        <header>
+        <div slot="header" class="header">
             <h1>我的第一个账本</h1>
             <div class="iconWrapper">
                 <Icon name="search" class="icon"/>
                 <Icon name="change" class="icon"/>
             </div>
 
-        </header>
-        <main>
+        </div>
+        <div class="main">
             <RecentTransactions/>
             <IncomeAndExpenditure/>
-        </main>
+        </div>
         <router-link to="/calculator">
             <button class="addTransaction">+</button>
         </router-link>
@@ -32,7 +32,7 @@
 <style lang="scss" scoped>
     @import "@/assets/style/helper.scss";
     #homepage{
-        header{
+        .header{
             background-color: $color-green;
             color:white;
             display: flex;
@@ -51,8 +51,11 @@
                 }
             }
         }
-        main{
-
+        .main{
+            overflow: auto;
+            .home-pad{
+                color:blue;
+            }
         }
     }
 </style>

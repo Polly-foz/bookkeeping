@@ -1,8 +1,11 @@
 <template>
     <div class="layout-with-nav">
-        <div class="content">
+        <header>
+            <slot name="header"></slot>
+        </header>
+        <main class="content">
             <slot/>
-        </div>
+        </main>
         <Nav/>
     </div>
 </template>

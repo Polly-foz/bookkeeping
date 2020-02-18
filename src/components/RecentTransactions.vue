@@ -1,5 +1,5 @@
 <template>
-    <div id="recentTransactions">
+    <div id="recentTransactions" class="home-pad">
         <h2 class="title">最近交易</h2>
         <ol>
             <li>

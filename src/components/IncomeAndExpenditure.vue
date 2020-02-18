@@ -1,5 +1,5 @@
 <template>
-    <div class="incomeAndExpenditure">
+    <div id="incomeAndExpenditure" class="home-pad">
         <h2 class="title">收入支出</h2>
         <ol>
             <li>
