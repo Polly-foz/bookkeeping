@@ -15,6 +15,7 @@
     @media(min-width: 541px) {
         html {
             font-size: 24px;
+
         }
     }
 

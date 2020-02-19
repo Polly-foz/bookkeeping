@@ -19,8 +19,16 @@
 <style lang="scss" scoped>
     @import "@/assets/style/helper.scss";
     .layout-with-nav{
-        display: flex;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-flex-direction:column;
+        -ms-flex-direction:column;
+        flex-direction:column;
         flex-direction: column;
+        flex-wrap: nowrap;
         height:100vh;
         .header{
             background-color: $color-green;
@@ -40,8 +48,12 @@
             }
         }
         .content{
-            flex-grow:1;
-            overflow: auto;
+            -webkit-box-flex:1;
+            -webkit-flex:1;
+            -ms-flex:1;
+            flex:1;
+            overflow:auto;/* winphone8和android4+ */
+            -webkit-overflow-scrolling: touch; /* ios5+ */
             /*border: 1px solid red;*/
         }
         > Nav{
