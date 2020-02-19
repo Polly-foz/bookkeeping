@@ -41,12 +41,13 @@
         justify-content: space-around;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
+        background-color: white;
         > .item{
             display: flex;
             flex-direction: column;
             align-items: center;
             font-size: 0.5rem;
-            color: #666;
+            color: $color-nav-grey;
             line-height: 1;
             > .icon{
                 font-size: 1rem;

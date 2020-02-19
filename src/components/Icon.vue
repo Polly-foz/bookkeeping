@@ -1,9 +1,9 @@
 <template>
-    <div>
+<!--    <div>-->
         <svg class="icon" aria-hidden="true">
             <use :xlink:href="'#' + name"/>
         </svg>
-    </div>
+<!--    </div>-->
 </template>
 
 <script lang="ts">
