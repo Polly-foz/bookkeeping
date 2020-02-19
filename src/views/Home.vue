@@ -11,9 +11,9 @@
             <RecentTransactions/>
             <IncomeAndExpenditure/>
         </div>
-        <router-link to="/calculator">
-            <Icon name="addTransaction" class="addTransaction"/>
-        </router-link>
+        <button v-on:click="isShow = true"><Icon name="addTransaction" class="addTransaction"/></button>
+        <NumberPad :is-show.sync="isShow"></NumberPad>
+
     </LayoutWithNav>
 </template>
 
@@ -21,10 +21,21 @@
 
     import RecentTransactions from "@/components/home/RecentTransactions";
     import IncomeAndExpenditure from "@/components/home/IncomeAndExpenditure";
+    import NumberPad from "@/components/home/NumberPad";
 
     export default {
         name: "HomePage",
-        components: {RecentTransactions, IncomeAndExpenditure}
+        data(){
+            return{isShow:false,}
+        },
+        components: {RecentTransactions, IncomeAndExpenditure, NumberPad},
+        methods:{
+            toNumberPad(){
+                console.log("number pad")
+                alert("Number pad")
+            }
+        }
+
     }
 </script>
 

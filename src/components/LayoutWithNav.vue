@@ -41,7 +41,11 @@
             justify-content: space-between;
             font-size: 1rem;
             padding: 1rem;
-
+            h1{
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+            }
             .iconWrapper{
                 display: flex;
                 justify-content: center;
