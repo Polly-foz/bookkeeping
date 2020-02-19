@@ -1,6 +1,8 @@
 <template>
     <LayoutWithNav>
-        Accounts
+        <template v-slot:header>
+            <h1>账户</h1>
+        </template>
     </LayoutWithNav>
 </template>
 

@@ -1,6 +1,8 @@
 <template>
     <LayoutWithNav>
-        Advanced
+        <template v-slot:header>
+            <h1>高级</h1>
+        </template>
     </LayoutWithNav>
 </template>
 

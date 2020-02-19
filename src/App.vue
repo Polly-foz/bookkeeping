@@ -9,13 +9,21 @@
     @import "@/assets/style/helper.scss";
 
     html {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     @media(min-width: 541px) {
         html {
             font-size: 24px;
         }
+    }
+
+    h1{
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+    h2{
+        font-size: 1.1rem;
     }
 
     #app{

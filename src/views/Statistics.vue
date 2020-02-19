@@ -1,6 +1,8 @@
 <template>
     <LayoutWithNav>
-        statistics
+        <template v-slot:header>
+            <h1>统计</h1>
+        </template>statistics
     </LayoutWithNav>
 </template>
 
