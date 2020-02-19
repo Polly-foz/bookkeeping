@@ -72,12 +72,12 @@
             display: flex;
             justify-content: space-between;
             .dateScope{
-                font-size: 0.5rem;
+                font-size: 0.8rem;
                 color: $color-nav-grey;
             }
             .right{
                 text-align: right;
-                font-size: 0.85rem;
+                font-size: 0.9rem;
                 .income{
                     color: $color-green;
                 }

@@ -39,18 +39,18 @@
         display: flex;
         box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
         justify-content: space-around;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
         background-color: white;
         > .item{
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 0.5rem;
+            font-size: 0.8rem;
             color: $color-nav-grey;
             line-height: 1;
             > .icon{
-                font-size: 1rem;
+                font-size: 1.2rem;
                 margin-bottom: 0.1rem;
             }
         }

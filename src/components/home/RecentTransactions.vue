@@ -69,7 +69,7 @@
             .secondLine {
                 display: flex;
                 justify-content: space-between;
-                font-size: 0.5rem;
+                font-size: 0.8rem;
                 color: $color-nav-grey;
             }
         }

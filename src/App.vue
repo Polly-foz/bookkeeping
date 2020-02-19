@@ -9,7 +9,7 @@
     @import "@/assets/style/helper.scss";
 
     html {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     @media(min-width: 541px) {

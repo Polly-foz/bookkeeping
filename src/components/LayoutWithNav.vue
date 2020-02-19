@@ -11,8 +11,12 @@
 </template>
 
 <script>
+    import vhCheck from 'vh-check'
     export default {
-        name: "LayoutWithNav"
+        name: "LayoutWithNav",
+        mounted(){
+            vhCheck()
+        }
     }
 </script>
 
@@ -29,7 +33,7 @@
         flex-direction:column;
         flex-direction: column;
         flex-wrap: nowrap;
-        height:100vh;
+        height: calc(100vh - var(--vh-offset, 0px));
         .header{
             background-color: $color-green;
             color:white;
